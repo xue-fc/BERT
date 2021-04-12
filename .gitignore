@@ -10,6 +10,7 @@ EW_output/*
 squad_data/*
 profile/*
 output*/
+*.out
 *.tf_record
 prune_mask/
 *.pkl

@@ -33,7 +33,7 @@ then
     then
         is_pruning_mode=true
 		output_dir="${task_name}_gpu${cuda_device}_pruning_${spar}%_granularity_${granularity}_taylor_score_pruning_type_${pruning_type}_${STARTTIME}_${number}_g1p_${g1percent}_epoch_${num_train_epochs}/model_${run}"
-		init_dir=/home/bert/bert/BERT/MNLI_TW2VW/MNLI_gpu0_pruning_20%_granularity_128_taylor_score_pruning_type_999_2021-04-05_10_g1p_0_epoch_1/model_0
+		init_dir=/home/bert/bert/BERT/MNLI_VW/MNLI_gpu1_pruning_20%_granularity_128_taylor_score_pruning_type_4_2021-04-01_10_g1p_5_epoch_1/model_0
 		# init_dir=/home/bert/bert/Model/MRPC_pretrained_model/model_0
         # init_dir=MNLI_${p_type}/MNLI_gpu1_pruning_${spar}%_granularity_128_taylor_score_pruning_type_${pruning_type}_2021-04-01_10_g1p_5_epoch_1/model_0
 		mkdir -p ${output_dir}
